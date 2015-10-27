@@ -1,6 +1,7 @@
 # GetIEVersion
 判断是否是IE浏览器
 
+<pre>
 function getInternetExplorerVersion()
 // Returns the version of Windows Internet Explorer or a -1
 // (indicating the use of another browser).
@@ -35,3 +36,7 @@ function checkVersion()
         
     }
 }
+
+
+
+</pre>
