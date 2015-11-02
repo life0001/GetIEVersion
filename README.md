@@ -20,7 +20,7 @@ function getInternetExplorerVersion()
 }
 function checkVersion()
 {
-    var msg = "You're not using Windows Internet Explorer.";
+    <!--var msg = "You're not using Windows Internet Explorer.";-->
     var ver = getInternetExplorerVersion();
     if ( ver> -1 )
     {
