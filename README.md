@@ -1,4 +1,4 @@
-# GetIsBrowser
+# IsBrowser
 判断是什么浏览器
 
 <pre>
