@@ -46,8 +46,11 @@ $(function() {
     } //myBrowser() end
     //判断是否safari
     if (myBrowser() == "Safari") {
-        $('.Personal_tabs').find('label').width(72);
-        $('.Calendar .Personaldate').find('s').height(22);
+        
+    }
+    //判断是否Firefox
+    if (myBrowser() == "FF") {
+        
     }
 });
 function getInternetExplorerVersion()
